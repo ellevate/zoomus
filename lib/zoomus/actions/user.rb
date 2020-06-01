@@ -50,8 +50,8 @@ module Zoomus
 
       def user_getbyemail(*args)
         options = Utils.extract_options!(args)
-        Utils.require_params([:email], options)
-        Utils.parse_response self.class.post('/user/getbyemail', :query => options)
+        Utils.require_params([:id], options)
+        Utils.parse_response self.class.post('/users', :query => options)
       end
 
       def user_autocreate(*args)

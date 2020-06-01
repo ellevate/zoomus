@@ -2,8 +2,8 @@
 
 Gem::Specification.new do |gem|
 
-  gem.add_dependency 'httparty', '~> 0.13'
-  gem.add_dependency 'json', '>= 2.3.0'
+  gem.add_dependency 'httparty'
+  gem.add_dependency 'json'
 
   gem.add_development_dependency 'byebug'
   gem.add_development_dependency 'rspec'
@@ -21,5 +21,5 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.name          = 'zoomus'
   gem.require_paths = ['lib']
-  gem.version       = '0.8.0'
+  gem.version       = '0.8.1'
 end
