@@ -11,7 +11,7 @@ Gem::Specification.new do |gem|
 
   gem.authors       = ['Maxim Colls']
   gem.email         = ['collsmaxim@gmail.com']
-  gem.description   = %q{A Ruby wrapper for zoom.us API v1}
+  gem.description   = %q{A Ruby wrapper for zoom.us API v2}
   gem.summary       = %q{zoom.us API wrapper}
   gem.homepage      = 'https://github.com/mllocs/zoomus'
   gem.licenses      = ['MIT']
@@ -21,5 +21,5 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.name          = 'zoomus'
   gem.require_paths = ['lib']
-  gem.version       = '0.7.0'
+  gem.version       = '0.8.0'
 end
